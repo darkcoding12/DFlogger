@@ -12,5 +12,5 @@ intro = """
 """
 os.system('clear')
 print(intro)
-port = input("[PORR] : ")
+port = input("[PORT] : ")
 os.system('php -S localhost:' + port)
