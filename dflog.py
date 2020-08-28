@@ -8,8 +8,8 @@ intro = """
 \033[01m\033[31m |____/|_|   \033[01m|____|\___/ \__, |\__, |\___|_|    
                          \033[01m|___/ |___/            
 \033[0m
-             .:Coding-Lab:.  t.me\cod1ng_lab
-                     version 1.0.1 
+         .:Coding-Lab:.  t.me\cod1ng_lab
+                 version 1.0.1 
 """
 os.system('clear')
 print(intro)
