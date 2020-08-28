@@ -1,4 +1,4 @@
-if num == '2':import os
+import os
 intro = """
 
 \033[01m\033[31m  ____  _ _  \033[01m _                              
