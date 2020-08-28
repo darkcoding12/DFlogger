@@ -13,8 +13,8 @@ intro = """
 os.system('clear')
 print(intro)
 print('''
-[\033[32m1\033[0m] \033[31mIP Logger
-[\033[32m2\033[0m] \033[31mEXIT\033[0m
+[\033[32m1\033[0m] \033[34mIP Logger\033[0m
+[\033[32m2\033[0m] \033[34mEXIT\033[0m
 ''')
 num = input('[+] : ')
 if num == '1':
