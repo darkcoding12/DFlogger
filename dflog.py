@@ -1,4 +1,4 @@
-import os
+if num == '2':import os
 intro = """
 
 \033[01m\033[31m  ____  _ _  \033[01m _                              
@@ -8,9 +8,17 @@ intro = """
 \033[01m\033[31m |____/|_|   \033[01m|____|\___/ \__, |\__, |\___|_|    
                          \033[01m|___/ |___/            
 
-
+\033[0m
 """
 os.system('clear')
 print(intro)
-port = input("[PORT] : ")
-os.system('php -S localhost:' + port)
+print('''
+[\033[32m1\033[0m] \033[31mIP Logger
+[\033[32m2\033[0m] \033[31mEXIT\033[0m
+''')
+num input('[+] : ')
+if num == '1':
+  port = input("[PORT] : ")
+  os.system('php -S localhost:' + port)
+if num == '2':
+  os.system('exit()')
