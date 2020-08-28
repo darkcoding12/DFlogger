@@ -16,7 +16,7 @@ print('''
 [\033[32m1\033[0m] \033[31mIP Logger
 [\033[32m2\033[0m] \033[31mEXIT\033[0m
 ''')
-num input('[+] : ')
+num = input('[+] : ')
 if num == '1':
   port = input("[PORT] : ")
   os.system('php -S localhost:' + port)
